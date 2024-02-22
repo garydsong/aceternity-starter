@@ -24,6 +24,7 @@ import { IconCommand } from "@tabler/icons-react";
 import { IconCaretLeftFilled } from "@tabler/icons-react";
 import { IconCaretDownFilled } from "@tabler/icons-react";
 import Image from "next/image";
+import { image } from "../core";
 
 export const MacbookScroll = ({
     src,
@@ -166,7 +167,7 @@ export const Lid = ({
             >
                 <div className="absolute inset-0 bg-[#272729] rounded-lg" />
                 <Image
-                    src="https://images.unsplash.com/photo-1707343844152-6d33a0bb32c3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src={image}
                     alt="aceternity logo"
                     fill
                     className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full"
