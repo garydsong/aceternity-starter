@@ -23,6 +23,7 @@ import { LayoutGridDemo } from './components/LayoutGridDemo'
 import { TabsDemo } from './components/TabsDemo'
 import { TypewriterEffectDemo } from './components/TypeWriterEffectDemo'
 import { BackgroundBoxesDemo } from './components/BackgroundBoxesDemo'
+import { AuroraBackgroundDemo } from './components/AuroraBackground'
 
 const Page = () => {
   return (
@@ -36,7 +37,7 @@ const Page = () => {
       {/* <SliderDemo/> */}
       {/* <HeroParallaxDemo/> */}
       {/* <WavyBackgroundDemo/> */}
-      {/* <GlowingStarsDemo/> */}
+      {/* <GlowingStarsDemo /> */}
       {/* <TextRevealCardDemo/> */}
       {/* <EvervaultCardDemo/> */}
       {/* <AnimatedTooltipDemo/> */}
@@ -52,6 +53,7 @@ const Page = () => {
       {/* <TabsDemo/> */}
       {/* <TypewriterEffectDemo/> */}
       {/* <BackgroundBoxesDemo /> */}
+      <AuroraBackgroundDemo />
 
       {/* floating navbar, meteors, tracing beam, navbar, tailwindcss buttons, animated background gradient, bentro grid,  */}
     </>
